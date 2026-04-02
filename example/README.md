@@ -1,6 +1,6 @@
-# map4d_map_example
+# iPostMap Example
 
-Demonstrates how to use the map4d_map plugin.
+Demonstrates how to use the ipostmap plugin.
 
 ## Getting Started
 

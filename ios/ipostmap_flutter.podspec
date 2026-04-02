@@ -1,18 +1,18 @@
 Pod::Spec.new do |s|
-  s.name             = 'map4d_map'
-  s.version          = '2.6.1'
-  s.summary          = 'Map4dMap SDK for Flutter'
+  s.name             = 'ipostmap_flutter'
+  s.version          = '1.0.0'
+  s.summary          = 'iPostMap SDK for Flutter'
   s.description      = <<-DESC
   A Flutter plugin that provides a MFMapView widget.
                        DESC
-  s.homepage         = 'https://map4d.vn'
+  s.homepage         = 'https://ipostmap.vn'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'IOTLink' => 'admin@iotlink.com.vn' }
-  s.source           = { :path => 'https://github.com/map4d/map4d-map-flutter' }
+  s.author           = { 'VNPOST' => 'cskh@vnpost.vn' }
+  s.source           = { :path => 'https://github.com/ipostmap/ipostmap-flutter' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'Map4dMap', '~> 2.8.2'
+  s.dependency 'iPostMap', '~> 1.0'
   s.static_framework = true
   s.platform = :ios, '12.0'
 

@@ -78,8 +78,8 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-See [example](https://github.com/ipostmap/ipostmap-flutter/tree/master/example) directory for more examples
+See [example](https://github.com/ipostmap/ipostmap-flutter/tree/ipostmap/example) directory for more examples
 
 ## Documents
 
-- API Reference: <https://pub.dev/documentation/ipostmap/latest/>
+- API Reference: <https://pub.dev/documentation/ipostmap_flutter/latest/>

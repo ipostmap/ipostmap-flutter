@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:map4d_map/map4d_map.dart';
+import 'package:ipostmap_flutter/ipostmap.dart';
 
 import 'page.dart';
 

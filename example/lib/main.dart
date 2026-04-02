@@ -55,7 +55,7 @@ class MapsDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Map4D SDK examples')),
+      appBar: AppBar(title: const Text('iPostMap SDK Examples')),
       body: ListView.builder(
         itemCount: _allPages.length,
         itemBuilder: (_, int index) => ListTile(

@@ -1,7 +1,7 @@
 # iPostMap for Flutter
-[![ipostmap](https://img.shields.io/badge/ipostmap-orange)](https://ipostmap.vn/)
+[![ipostmap](https://img.shields.io/badge/ipostmap-yellow)](https://ipostmap.vn/)
 [![platform](https://img.shields.io/badge/platform-flutter-45d2fd.svg)](https://flutter.dev/)
-[![pub package](https://img.shields.io/pub/v/ipostmap.svg)](https://pub.dev/packages/ipostmap)
+[![pub package](https://img.shields.io/pub/v/ipostmap_flutter.svg)](https://pub.dev/packages/ipostmap_flutter)
 [![github issues](https://img.shields.io/github/issues/ipostmap/ipostmap-flutter)](https://github.com/ipostmap/ipostmap-flutter/issues)
 
 A Flutter plugin that provides a [iPostMap](https://ipostmap.vn/) widget.

@@ -1,5 +1,5 @@
 name: ipostmap_flutter
-version: 1.0.0
+version: 3.0.0
 description: A Flutter plugin for integrating iPostMap in iOS and Android applications.
 homepage: https://ipostmap.vn
 repository: https://github.com/ipostmap/ipostmap-flutter

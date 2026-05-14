@@ -39,7 +39,6 @@ class PlaceBuildingBodyState extends State<PlaceBuildingBody> {
 
   void _onMapCreated(MFMapViewController controller) {
     this.controller = controller;
-    this.controller.enable3DMode(true);
   }
 
   void _onBuildingTapped(MFBuildingId id) {
@@ -141,7 +140,8 @@ class PlaceBuildingBodyState extends State<PlaceBuildingBody> {
             width: 350.0,
             height: 500.0,
             child: MFMapView(
-              initialCameraPosition: MFCameraPosition(target: _kInitPosition),
+              initialCameraPosition: MFCameraPosition(target: _kInitPosition, zoom: 17.0),
+              buildingsEnabled: true,
               buildings: Set<MFBuilding>.of(buildings.values),
               onMapCreated: _onMapCreated,
             ),

@@ -1,6 +1,3 @@
-import 'dart:math';
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -26,7 +23,6 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   bool _isMapCreated = false;
-  bool _is3DMode = false;
   late MFMapViewController _controller;
 
   @override
@@ -47,7 +43,6 @@ class _MyAppState extends State<MyApp> {
       myLocationEnabled: true,
       myLocationButtonEnabled: true,
       onTap: onTap,
-      onModeChange: onModeChange,
       onPOITap: onBaseMapPOITap,
       onBuildingTap: onBaseMapBuildingTap,
       onPlaceTap: onBaseMapPlaceTap,
@@ -146,8 +141,6 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<void> doAction() async {
-    // _is3DMode = !_is3DMode;
-    // _controller.enable3DMode(_is3DMode);
     // const p = MFScreenCoordinate(x: 100, y: 200);
     // _controller.getLatLng(p).then((latlng) {
     //   print('Convert point ${p.toJson()} to latlng: ${latlng.toJson()}');
@@ -168,14 +161,6 @@ class _MyAppState extends State<MyApp> {
 
   void onTap(MFLatLng coordinate) {
     print('Did tap ' + coordinate.toString());
-  }
-
-  void onModeChange(bool is3Dmode) {
-    var mode = '2D';
-    if (is3Dmode) {
-      mode = '3D';
-    }
-    print('Mode of map is: ' + mode);
   }
 
   void onBaseMapPOITap(String placeId, String name, MFLatLng location) {
